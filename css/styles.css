@@ -624,7 +624,7 @@ img {
   pointer-events: none;
 }
 .modal {
-  position: relative;
+  position: absolute;
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
@@ -687,6 +687,9 @@ img {
 .modal-box-two {
   margin-bottom: 16px;
 }
+.area-commet textarea {
+  opacity: 0.5;
+}
 
 .modul-label {
   display: block;
@@ -735,7 +738,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66);
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -743,6 +746,9 @@ img {
   outline: transparent;
   resize: none; /* Блокує розширення */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+textarea::placeholder {
+  opacity: 0.5;
 }
 .area-commet:focus {
   border-color: #4d5ae5;
