@@ -6,6 +6,7 @@
     <title>Home_Work_4</title>
     <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,6 +21,7 @@
           <a class="first_logo site_color link" href="./index.html"
             >Web<span class="second_logo">Studio</span>
           </a>
+
           <ul class="padding_test list">
             <li>
               <a class="first_site_new current link" href="./index.html"
@@ -46,9 +48,89 @@
             </li>
           </ul>
         </address>
+
+        <!-- MENU-MOBBILE -->
+        <button type="button" class="menu_button_open" data-menu-open>
+          <svg class="svg-mob-gamburger" width="32" height="22">
+            <use href="./images/icons.svg#hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="menu_button_clouse" data-menu-close>
+            <svg class="svg_icons_footer" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-ul">
+            <li class="mob-list-li">
+              <a class="first_mobl_site" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-list-li">
+              <a class="mobl_site" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mob-list-li">
+              <a class="mobl_site" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mob-list">
+            <li>
+              <a class="mob-link" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="mob-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+
+          <ul class="mob-social">
+            <li class="list_svg">
+              <a class="site_svg" href="https://www.instagram.com/">
+                <svg class="svg_icons_bot" width="16" height="16">
+                  <use
+                    href="./images/homework4/icons.svg#icon-instagram_2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="list_svg">
+              <a class="site_svg" href="https://www.instagram.com/">
+                <svg class="svg_icons_bot" width="16" height="16">
+                  <use href="./images/homework4/icons.svg#icon-twitter_1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list_svg">
+              <a class="site_svg" href="https://www.instagram.com/">
+                <svg class="svg_icons_bot" width="16" height="16">
+                  <use
+                    href="./images/homework4/icons.svg#icon-facebook_1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list_svg">
+              <a class="site_svg" href="https://www.instagram.com/">
+                <svg class="svg_icons_bot" width="16" height="16">
+                  <use
+                    href="./images/homework4/icons.svg#icon-linkedin_1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="sect_one">
         <div class="container">
           <h1 class="first_header">Effective Solutions for Your Business</h1>
@@ -414,7 +496,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="modal_window is-hidden" data-modal>
       <div class="modal">
         <button class="but_modal" type="button" data-modal-close>
@@ -504,6 +586,14 @@
         </form>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
