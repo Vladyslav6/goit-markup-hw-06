@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .padding_test {
     display: flex;
   }
@@ -8,11 +8,20 @@
   .adress {
     display: block;
   }
+  .address .list {
+    display: block;
+  }
+
   .menu_button_open {
     display: none;
   }
   .first_nav {
-    margin-right: 332px;
+  }
+
+  .block_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -26,3 +35,6 @@
     margin-right: 332px;
   }
 }
+/* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
