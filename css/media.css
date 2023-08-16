@@ -7,21 +7,18 @@
   }
   .adress {
     display: block;
+    padding-top: 15px;
+    margin-left: auto;
   }
-  .address .list {
+  .address-list {
     display: block;
   }
 
+  .adres_link {
+    padding: 0;
+  }
   .menu_button_open {
     display: none;
-  }
-  .first_nav {
-  }
-
-  .block_one {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -30,6 +27,9 @@
   }
   .menu_button_open {
     display: none;
+  }
+  .address-list {
+    display: flex;
   }
   .first_nav {
     margin-right: 332px;
