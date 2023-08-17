@@ -143,9 +143,8 @@ img {
 .adress {
   display: none;
   font-style: normal;
-
-  /* align-items: center;
-  margin-left: auto; */
+}
+.address-list {
 }
 
 .adres_link {

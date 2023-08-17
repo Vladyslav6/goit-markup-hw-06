@@ -13,10 +13,10 @@
   }
 
   .headsecti {
-    text-align: left;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px; /* 111.111% */
+    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
@@ -37,6 +37,9 @@
 1 */
 
 @media (min-width: 768px) {
+  .headsecti {
+    text-align: left;
+  }
   .first_logo {
     margin-bottom: 17px;
   }
@@ -107,7 +110,7 @@
   }
   .adress {
     display: block;
-    padding-top: 15px;
+    padding-top: 16px;
     margin-left: auto;
   }
   .address-list {
@@ -128,6 +131,15 @@
 1 */
 
 @media screen and (min-width: 1158px) {
+  .address {
+  }
+  .foot {
+    padding: 100px 0;
+    margin: 0;
+  }
+  .headsecti {
+    text-align: center;
+  }
   .first_logo {
     margin-bottom: 17px;
   }
