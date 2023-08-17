@@ -330,7 +330,7 @@ body {
 
 .modal {
   position: absolute;
-  width: 392px;
+  width: 408px; /*чомусь поставив 392*/
   min-height: 584px;
   top: 50%;
   left: 50%;
