@@ -273,6 +273,7 @@ body {
     ),
     url(../images/people-office-mob-1x.jpg);
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -446,8 +447,6 @@ body {
   margin-bottom: 16px;
 }
 
-
-
 .modal-form-comment-name {
   font-size: 12px;
   line-height: 1.17;
@@ -474,7 +473,7 @@ body {
 }
 
 .modal-form-textarea::placeholder {
-  color:#8E8F99;
+  color: #8e8f99;
   opacity: 0.5;
 }
 
