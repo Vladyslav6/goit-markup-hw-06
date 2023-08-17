@@ -40,7 +40,7 @@
   .headsecti {
     text-align: left;
   }
-  .first_logo {
+  .foot .container .first_logo {
     margin-bottom: 17px;
   }
   .foot {
@@ -140,7 +140,7 @@
   .headsecti {
     text-align: center;
   }
-  .first_logo {
+  .foot .container .first_logo {
     margin-bottom: 17px;
   }
   .foot_logo {
