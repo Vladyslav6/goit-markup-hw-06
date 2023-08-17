@@ -9,6 +9,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .nav-list {
+    padding: 25px 0;
+  }
   /* header + menu */
   .container {
     width: 100%;
@@ -172,6 +175,9 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .nav-list {
+    padding: 26px 0;
+  }
   * {
     box-sizing: border-box;
   }
