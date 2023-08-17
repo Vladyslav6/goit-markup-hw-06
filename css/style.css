@@ -97,7 +97,7 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 0px;
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
@@ -330,7 +330,7 @@ body {
 
 .modal {
   position: absolute;
-  width: 408px; /*чомусь поставив 392*/
+  width: 392px;
   min-height: 584px;
   top: 50%;
   left: 50%;
