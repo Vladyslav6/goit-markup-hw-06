@@ -446,9 +446,7 @@ body {
   margin-bottom: 16px;
 }
 
-.textarea::placeholder {
-  opacity: 0.5;
-}
+
 
 .modal-form-comment-name {
   font-size: 12px;
@@ -477,6 +475,7 @@ body {
 
 .modal-form-textarea::placeholder {
   color:#8E8F99;
+  opacity: 0.5;
 }
 
 .modal-form-textarea:focus,
