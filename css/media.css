@@ -1,4 +1,104 @@
+@media (min-width: 428px) {
+  .first_header {
+    width: 320px;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .div_icons {
+  }
+  .parsectitwo {
+  }
+
+  .headsecti {
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .secour .container .headsecti {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+  .secour .list {
+    gap: 72px;
+  }
+}
+/* 
+1
+1
+1
+1 */
+
 @media (min-width: 768px) {
+  .first_logo {
+    margin-bottom: 17px;
+  }
+  .foot {
+    padding: 96px 0 96px 108px;
+    margin: 0;
+  }
+  .foot .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .foot_social {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 72px;
+  }
+  .foot_logo {
+    margin: 0;
+    margin-right: 24px;
+    text-align: left;
+  }
+  .footer-input-box {
+    margin: 0;
+    text-align: left;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .customers_ul {
+    gap: 72px;
+    column-gap: 24px;
+  }
+  .list_new_one {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px;
+    column-gap: 24px;
+  }
+  .list_test {
+    width: calc((100% - 72px) / 2);
+  }
+  .secour .container .list {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px;
+    column-gap: 24px;
+  }
+  .first_header {
+    width: 496px;
+    margin-bottom: 36px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+  }
   .padding_test {
     display: flex;
   }
@@ -21,9 +121,42 @@
     display: none;
   }
 }
+/* 
+1
+1
+1
+1 */
+
 @media screen and (min-width: 1158px) {
+  .first_logo {
+    margin-bottom: 17px;
+  }
+  .foot_logo {
+    margin-right: 120px;
+  }
+  .foot_social {
+    margin-right: 80px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .secthree {
+    display: block;
+    padding-bottom: 120px;
+  }
   .container {
     max-width: 1158px;
+  }
+  .div_icons {
+    display: flex;
+  }
+  .list_test {
+    width: calc((100% - 72px) / 4);
+  }
+  .list_new_one {
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 24px;
   }
   .menu_button_open {
     display: none;
@@ -35,6 +168,3 @@
     margin-right: 332px;
   }
 }
-/* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */

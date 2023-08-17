@@ -329,7 +329,7 @@ img {
   padding: 120px 0;
 }
 .div_icons {
-  display: flex;
+  display: none;
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
@@ -353,12 +353,12 @@ img {
   overflow: hidden;
 }
 .list_new_one {
-  list-style: none;
   display: flex;
+  flex-direction: column;
+  list-style: none;
   gap: 24px;
 }
 .list_test {
-  width: calc((100% - 72px) / 4);
 }
 
 .headsecti {
@@ -379,16 +379,13 @@ img {
 /* section_two_clouse */
 /* sect_three */
 .secthree {
+  display: none;
   padding-bottom: 120px;
 }
 .sect_img {
 }
 .secthree .container .list {
   gap: 24px;
-  /* margin-top: 72px;
-  padding-bottom: 120px; */
-  /* padding-top: 72px; */
-  /* background-color: #4d5ae5; */
 }
 .whatare {
   font-size: 36px;
@@ -408,9 +405,10 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.secour .container .list {
+.secour .list {
   text-align: center;
-  gap: 24px;
+  flex-direction: column;
+  /* gap: 72px; */
 }
 .photo {
   background-color: #ffffff;
@@ -460,7 +458,10 @@ img {
 }
 .customers_ul {
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px;
+  column-gap: 16px;
   list-style-type: none;
   justify-content: center;
 }
@@ -499,20 +500,21 @@ img {
 }
 .foot .container {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
 }
 
 .foot .container .first_logo {
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin: 0 0 16px 0; */
   padding: 0;
 }
 .foot_logo {
-  margin-right: 120px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
-.foot_social {
-  margin-right: 80px;
-}
+
 .foot_svg {
   display: flex;
   justify-content: center;
@@ -549,16 +551,27 @@ img {
   text-transform: uppercase;
 }
 .parfooter {
+  text-align: left;
   max-width: 264px;
   max-height: 72px;
   line-height: 1.5;
   color: var(--footerpar);
   letter-spacing: 0.02em;
 }
+.foot_social {
+  margin: 0 auto;
+  margin-bottom: 72px;
+  text-align: center;
+}
 .footer-form {
   display: flex;
   position: relative;
+  flex-direction: column;
   gap: 24px;
+}
+.footer-input-box {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .footer-svg {
@@ -567,7 +580,7 @@ img {
 }
 
 .footer-input {
-  width: 264px;
+  width: 398px;
   height: 40px;
   font-size: 12px;
   line-height: 1.5;
@@ -588,6 +601,8 @@ img {
 
 .footer-button {
   display: flex;
+  margin: 0 auto;
+  width: 165px;
   justify-content: center;
   align-items: center;
   /* margin: 0 auto; */
