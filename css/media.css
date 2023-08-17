@@ -37,7 +37,7 @@
 1 */
 
 @media (min-width: 768px) {
-  .headsecti {
+  .sect-two .container .headsecti {
     text-align: left;
   }
   .foot .container .first_logo {
@@ -131,7 +131,8 @@
 1 */
 
 @media screen and (min-width: 1158px) {
-  .address {
+  .adress {
+    padding-top: 24px;
   }
   .foot {
     padding: 100px 0;
