@@ -114,7 +114,8 @@ body {
 .adress {
   display: none;
   font-style: normal;
-  padding: 24px 0;
+  /* padding: 24px 0; */
+
   align-items: center;
   margin-left: auto;
 }
